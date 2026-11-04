@@ -1,0 +1,5 @@
+package ru.alexander.taskmanager.task;
+
+/** All editable fields of a task. */
+public record UpdateTaskRequest(String title, String description, Boolean completed) {
+}
